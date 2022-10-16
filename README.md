@@ -26,5 +26,10 @@
                For example : python 3.9 -download PyAudio‑0.2.11‑cp39‑cp39‑win_amd64.whl
                 and
                 pip install PyAudio‑0.2.11‑cp39‑cp39‑win_amd64.whl 
+                
+ #LINK TO PRODUCT WALKTHROUGH
+ https://drive.google.com/file/d/158xkteEOmS-gEGlas7GSvhR2-7EPeHBi/view?usp=drivesdk
+ 
+       
   
  
