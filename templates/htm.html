@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>ELECTRA</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+
+</head>
+<body>
+    <div class="container">
+<div class="head" align="center">
+    <h1>ASSISTANT ELECTRA</h1>
+</div>
+<form method="post" action="/" >
+<div class="image" align="center">
+    <button name="microphone" value="microphone" onclick="document.getElementById('type').value = ''" type="submit"><img src="https://static.vecteezy.com/system/resources/previews/000/421/801/original/microphone-icon-vector-illustration.jpg" width="100" height="90" alt="listen" ></button>
+
+
+    </br></br>
+
+    <button name="keyboard" value="keyboard"  id="keyboard" type="submit" ><img src="https://cdn2.iconfinder.com/data/icons/eldorado-devices/40/keyboard-512.png" width="100" height="90" alt="type" ></button></br></br>
+
+    <input id="type" name="type" type="text" placeholder="type..." /></br></br>
+
+
+    <input id="typec" name="typec"  type="text" placeholder="enter city..." />
+    
+    <button class ="b1" name="citye" value="citye"  id="citye" type="submit" >Enter</button>
+    
+
+    <button class ="b2" name="citys" value="citys" onclick="document.getElementById('typec').value = ''" id="citys" type="submit" ><img src="https://static.vecteezy.com/system/resources/previews/000/421/801/original/microphone-icon-vector-illustration.jpg" width="20" height="20" alt="listen" ></button>
+</br></br>
+</div>
+
+    </form>
+</div>
+
+</body>
+</html>
